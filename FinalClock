@@ -1,0 +1,8 @@
+import os
+import datetime
+from playsound import playsound
+
+alarm_1 = int(input("What hour would you like to wake up?: "))
+alarm_2 = int(input("What minute would you like to wake up?"))
+
+#this will be the fain file with my final alarm clock in it.
