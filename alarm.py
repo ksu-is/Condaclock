@@ -18,7 +18,7 @@ if os.path.isfile("YT.txt") == False:
 	filecreate = os.open("YT.txt", flags)
 	with os.fdopen(fisierCreat, 'w') as fileCreated:
 	    fileCreated.write("https://youtu.be/BZg8BhBWyo8")
-
+#Error because file is not present on computer will change so this will not be needed in final version of alarm clock.
 #The User can set the time they want to wake up. The String the user puts in must be the same as the example to work.
 print "What time do you want to wake up?"
 print "Use this form.\nExample: 06:30"
@@ -55,3 +55,4 @@ if Time == Alarm:
 	#Using the webbrowser library, it opens this youtube video link.
 	#The videos are varius aphex twin songs
 	webbrowser.open(random_video)
+#Custom GUI will be added to this file if used in th final version. 
