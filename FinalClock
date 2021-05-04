@@ -1,8 +1,6 @@
 import os
 import datetime
 from playsound import playsound
+playsound(r"C:\Users\Dylan\Downloads\snakehiss2.mp3")
+#downloaded file from website then put it in path to play using playsound
 
-alarm_1 = int(input("What hour would you like to wake up?: "))
-alarm_2 = int(input("What minute would you like to wake up?"))
-
-#this will be the fain file with my final alarm clock in it.
